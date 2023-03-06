@@ -1,0 +1,7 @@
+{
+  "name": "businesslanding",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

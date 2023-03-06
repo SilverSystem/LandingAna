@@ -1,0 +1,54 @@
+.init-slide{
+  height: 40vh;
+  background-color: blue;
+}
+
+.icon-imgs{
+  height: 150px;
+  width: 150px;
+}
+
+.action-cards{
+  padding: 40px 0px;
+  background-color: #fff;
+  border-radius: 2px;
+}
+
+.cards-with-imgbg{
+  text-align: center;
+  color: #fff;
+  background-size: cover;
+  padding: 40px 0px;
+  margin: 20px 10px;
+  max-width: 30%!important;
+}
+.cards-with-imgbg h4{
+  font-size: 26px;
+  font-weight: bold;
+  text-shadow: 1px 1px 0px #000000;
+}
+
+.cards-with-bluebg{
+  text-align: end;
+  color: #fff;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 40px 0px;
+  margin: 20px 10px;
+  max-height: 150px;
+  max-width: 40%!important;
+}
+.cards-with-bluebg h4{
+  padding-top: 20px;
+  font-size: 26px;
+  font-weight: bold;
+  text-shadow: 1px 1px 0px #000000;
+}
+
+.last-call{
+  background-color: transparent;
+  background-image: linear-gradient(160deg, #04384F 80%, #032D3F 99%);
+  text-align: center;
+  color: #fff;
+  padding: 80px 0px;
+}
