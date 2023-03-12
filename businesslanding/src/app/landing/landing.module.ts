@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-
+import { SwiperModule } from 'swiper/angular';
 import { IonicModule } from '@ionic/angular';
 
 import { LandingPageRoutingModule } from './landing-routing.module';
@@ -19,6 +19,7 @@ const LANDING_COMPONENTS = [
     CommonModule,
     FormsModule,
     IonicModule,
+    SwiperModule,
     LandingPageRoutingModule
   ],
   declarations: [...LANDING_COMPONENTS]
