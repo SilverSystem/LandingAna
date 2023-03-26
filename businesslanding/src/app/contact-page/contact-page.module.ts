@@ -8,12 +8,15 @@ import { ContactPagePageRoutingModule } from './contact-page-routing.module';
 
 import { ContactPagePage } from './contact-page.page';
 
+import { LandingPageModule } from '../landing/landing.module';
+
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    ContactPagePageRoutingModule
+    ContactPagePageRoutingModule,
+    LandingPageModule
   ],
   declarations: [ContactPagePage]
 })
