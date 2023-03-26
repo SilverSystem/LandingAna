@@ -6,10 +6,6 @@ const routes: Routes = [
   {
     path: '',
     loadChildren: () => import('./landing/landing.module').then( m => m.LandingPageModule)
-  },
-  {
-    path: '**',
-    component: LandingPage
 
   },
   {
@@ -23,7 +19,12 @@ const routes: Routes = [
   {
     path: 'amazon-page',
     loadChildren: () => import('./amazon-page/amazon-page.module').then( m => m.AmazonPagePageModule)
-  }
+  },
+  {
+    path: '**',
+    component: LandingPage
+
+  },
 ];
 @NgModule({
   imports: [
