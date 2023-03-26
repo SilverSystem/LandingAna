@@ -7,13 +7,15 @@ import { IonicModule } from '@ionic/angular';
 import { GooglePagePageRoutingModule } from './google-page-routing.module';
 
 import { GooglePagePage } from './google-page.page';
+import { LandingPageModule } from '../landing/landing.module';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    GooglePagePageRoutingModule
+    GooglePagePageRoutingModule,
+    LandingPageModule,
   ],
   declarations: [GooglePagePage]
 })

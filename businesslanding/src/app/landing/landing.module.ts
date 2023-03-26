@@ -22,6 +22,7 @@ const LANDING_COMPONENTS = [
     SwiperModule,
     LandingPageRoutingModule
   ],
+  exports: [...LANDING_COMPONENTS],
   declarations: [...LANDING_COMPONENTS]
 })
 export class LandingPageModule {}
