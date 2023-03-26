@@ -11,6 +11,18 @@ const routes: Routes = [
     path: '**',
     component: LandingPage
 
+  },
+  {
+    path: 'google-page',
+    loadChildren: () => import('./google-page/google-page.module').then( m => m.GooglePagePageModule)
+  },
+  {
+    path: 'contact-page',
+    loadChildren: () => import('./contact-page/contact-page.module').then( m => m.ContactPagePageModule)
+  },
+  {
+    path: 'amazon-page',
+    loadChildren: () => import('./amazon-page/amazon-page.module').then( m => m.AmazonPagePageModule)
   }
 ];
 @NgModule({
