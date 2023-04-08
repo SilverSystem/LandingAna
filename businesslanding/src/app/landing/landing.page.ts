@@ -1,8 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { IonicSlides } from '@ionic/angular';
-import SwiperCore, { Autoplay, Keyboard, Pagination, Scrollbar, Zoom } from 'swiper';
-
-SwiperCore.use([Autoplay, Keyboard, Pagination, Scrollbar, Zoom, IonicSlides]);
 
 @Component({
   selector: 'app-landing',
@@ -10,7 +6,11 @@ SwiperCore.use([Autoplay, Keyboard, Pagination, Scrollbar, Zoom, IonicSlides]);
   styleUrls: ['./landing.page.scss'],
 })
 export class LandingPage implements OnInit {
-
+  img = {
+    'background-image': 'url("../../assets/homepage-header.jpg")',
+    'padding-top':'20px',
+    'padding-bottom': '20px'
+  };
   constructor() { }
 
   ngOnInit() {

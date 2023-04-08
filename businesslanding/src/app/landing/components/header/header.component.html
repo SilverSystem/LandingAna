@@ -1,20 +1,21 @@
 <ion-header>
-  <ion-row class="ion-align-items-center">
-    <ion-col size="3">
-        <ion-img  [src]="img" class="menu_logo"></ion-img>
-    </ion-col>
-    <ion-col size="6">
-      <ion-row class="ion-align-items-center" style="height: 100%;">
-        <ion-col size="3" routerLink="/amazon-page" class="page-links">AMAZON</ion-col>
-        <ion-col size="3" routerLink="/google-page" class="page-links">GOOGLE</ion-col>
-        <ion-col size="3"routerLink="/amazon-page" class="page-links">ABOUT US</ion-col>
-      </ion-row>
-    </ion-col>
-    <ion-col size="3">
-      <ion-button expand="block" color="light" fill="outline" routerLink="contact-page">
-        CONTACT US
-      </ion-button>
-    </ion-col>
-  </ion-row>
+  <ion-grid class="ion-no-padding">
+    <ion-row class="ion-align-items-center">
+      <ion-col size="3">
+        <ion-img [src]="img" class="menu_logo" routerLink="/"></ion-img>
+      </ion-col>
+      <ion-col size="6">
+        <ion-row class="ion-align-items-center" style="height: 100%;">
+          <ion-col size="3" routerLink="/amazon-page" class="page-links">AMAZON</ion-col>
+          <ion-col size="3" routerLink="/google-page" class="page-links">GOOGLE</ion-col>
+          <ion-col size="3" routerLink="/contact-page" class="page-links">ABOUT US</ion-col>
+        </ion-row>
+      </ion-col>
+      <ion-col size="3">
+        <ion-button expand="block" color="light" fill="outline" routerLink="/contact-page">
+          CONTACT US
+        </ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
 </ion-header>
-
