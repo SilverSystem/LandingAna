@@ -9,14 +9,16 @@
               <ion-card-header>
                 <ion-label>
                   <h1 style="font-weight: bold;">
-                    Google Page
+                    Google ADS <ion-icon name="logo-google"></ion-icon>
                   </h1>
                 </ion-label>
               </ion-card-header>
               <ion-card-content>
                 <ion-list  [inset]="true">
                   <ion-item *ngFor="let text of actions">
-                    <ion-label>{{text}}</ion-label>
+                    <ion-label>
+                      {{text}}
+                    </ion-label>
                   </ion-item>
                 </ion-list>
               </ion-card-content>

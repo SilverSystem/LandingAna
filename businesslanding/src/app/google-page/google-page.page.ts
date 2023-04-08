@@ -6,15 +6,16 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./google-page.page.scss'],
 })
 export class GooglePagePage implements OnInit {
-  actions: Array<string> = ['Search Ads',
-    'Remarketing',
-    'Local Service Ads',
-    'Shopping Ads',
-    'Display Ads',
-    'Dynamic Campaigns',
-    'Video Ads',
-    'Mobile App Ads',
-    'Smart Campaigns'
+  actions: Array<string> = [
+    '• Search Ads',
+    '• Remarketing',
+    '• Local Service Ads',
+    '• Shopping Ads',
+    '• Display Ads',
+    '• Dynamic Campaigns',
+    '• Video Ads',
+    '• Mobile App Ads',
+    '• Smart Campaigns'
   ]
   constructor() { }
 
