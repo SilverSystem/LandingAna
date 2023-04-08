@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 
+import { TooltipModule } from 'ng2-tooltip-directive-ngfix';
 import { IonicModule } from '@ionic/angular';
 
 import { ContactPagePageRoutingModule } from './contact-page-routing.module';
@@ -16,7 +17,8 @@ import { LandingPageModule } from '../landing/landing.module';
     FormsModule,
     IonicModule,
     ContactPagePageRoutingModule,
-    LandingPageModule
+    LandingPageModule,
+    TooltipModule
   ],
   declarations: [ContactPagePage]
 })

@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 
+import { TooltipModule } from 'ng2-tooltip-directive-ngfix';
 import { IonicModule } from '@ionic/angular';
 
 import { GooglePagePageRoutingModule } from './google-page-routing.module';
@@ -16,6 +17,7 @@ import { LandingPageModule } from '../landing/landing.module';
     IonicModule,
     GooglePagePageRoutingModule,
     LandingPageModule,
+    TooltipModule
   ],
   declarations: [GooglePagePage]
 })

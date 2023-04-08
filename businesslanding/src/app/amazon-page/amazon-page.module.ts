@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
+import { TooltipModule } from 'ng2-tooltip-directive-ngfix';
 
 import { AmazonPagePageRoutingModule } from './amazon-page-routing.module';
 
@@ -15,7 +16,8 @@ import { LandingPageModule } from '../landing/landing.module';
     FormsModule,
     IonicModule,
     AmazonPagePageRoutingModule,
-    LandingPageModule
+    LandingPageModule,
+    TooltipModule
   ],
   declarations: [AmazonPagePage]
 })

@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { SwiperModule } from 'swiper/angular';
 import { IonicModule } from '@ionic/angular';
-
+import { TooltipModule } from 'ng2-tooltip-directive-ngfix';
 import { LandingPageRoutingModule } from './landing-routing.module';
 
 import { LandingPage } from './landing.page';
@@ -20,6 +20,7 @@ const LANDING_COMPONENTS = [
     FormsModule,
     IonicModule,
     SwiperModule,
+    TooltipModule,
     LandingPageRoutingModule
   ],
   exports: [...LANDING_COMPONENTS],
