@@ -46,3 +46,16 @@
   color: #fff;
   padding: 80px 0px;
 }
+
+.init-slide{
+  background-image: linear-gradient(
+    to bottom,
+    #1b1a1788,
+    #e6d5b8c8
+  ),url('../../assets/workingTable.jpg');
+  padding: 150px 0;
+  color: #fff;
+}
+.init-slide i{
+  font-size: 3rem!important;
+}
