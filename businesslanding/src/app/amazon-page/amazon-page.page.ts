@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./amazon-page.page.scss'],
 })
 export class AmazonPagePage implements OnInit {
-
+  imageMoney='../../assets/dinero.jpg'
   constructor() { }
 
   ngOnInit() {
