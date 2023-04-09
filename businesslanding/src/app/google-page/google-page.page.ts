@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./google-page.page.scss'],
 })
 export class GooglePagePage implements OnInit {
+  imageMoney='../../assets/dinero.jpg'
   actions: Array<string> = [
     '• Search Ads',
     '• Remarketing',

@@ -9,12 +9,24 @@
               <ion-card-header>
                 <ion-label>
                   <h1 style="font-weight: bold;">
-                    Google ADS <ion-icon name="logo-google"></ion-icon>
+                    Google ADS <ion-icon name="logo-google" style="padding-top: 15px;"></ion-icon>
                   </h1>
                 </ion-label>
               </ion-card-header>
               <ion-card-content>
-                <ion-list  [inset]="true">
+                <h3 style="font-weight: bold;font-size: 20px;">What can we offer you?</h3>
+                <ion-row style="margin-top: 20px;" class="ion-align-items-center">
+                  <ion-col size="3" style="text-align: end;"><img [src]="imageMoney" alt="money image"
+                    class="icon-imgs"></ion-col>
+                    <ion-col size="9" style="text-align: left;padding-left: 10px;">
+                      <h3 style="font-weight: bold;font-size: 18px;">Grow your business with Google Ads</h3>
+                    <p>Online advertising lets you target your ads to the type of customers you want, and filter out
+                      those you don't. When you advertise online with Google Ads, you can use different targeting
+                      methods to reach potential customers right when they're searching for your products or services.
+                    </p>
+                  </ion-col>
+                </ion-row>
+                <ion-list [inset]="true">
                   <ion-item *ngFor="let text of actions">
                     <ion-label>
                       {{text}}

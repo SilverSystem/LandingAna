@@ -9,16 +9,29 @@
               <ion-card-header>
                 <ion-label>
                   <h1 style="font-weight: bold;">
-                    Amazon ADS <ion-icon name="logo-amazon"></ion-icon>
+                    Amazon ADS
+                    <ion-icon name="logo-amazon"></ion-icon>
                   </h1>
                 </ion-label>
               </ion-card-header>
               <ion-card-content>
-                Advertising provides a visibility boost to your brand and products.
-                Ads appear in highly visible placements, within shopping results or on product detail pages.
-                Many shoppers come to Amazon ready to buy.
-                Advertising can help you reach customers who are looking for products like yours.
-                <img [src]="imageMoney" alt="">
+                <h3 style="font-weight: bold;font-size: 20px;">What can we offer you?</h3>
+                <ion-row style="margin-top: 20px;" class="ion-align-items-center">
+                  <ion-col size="3" style="text-align: end;"><img [src]="imageGraphic" alt="graphic image"
+                      class="icon-imgs"></ion-col>
+                  <ion-col size="9" style="text-align: left;padding-left: 10px;">
+                    <p>Advertising provides a visibility boost to your brand and products. Ads appear in highly visible
+                      placements, within shopping results or on product detail pages. Many shoppers come to Amazon ready
+                      to buy. Advertising can help you reach customers who are looking for products like yours.</p>
+                  </ion-col>
+                </ion-row>
+                <ion-list [inset]="true">
+                  <ion-item *ngFor="let text of actions">
+                    <ion-label>
+                      {{text}}
+                    </ion-label>
+                  </ion-item>
+                </ion-list>
               </ion-card-content>
             </ion-card>
           </ion-col>
