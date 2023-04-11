@@ -8,8 +8,6 @@ import { Component, OnInit } from '@angular/core';
 export class LandingPage implements OnInit {
   img = {
     'background-image': 'url("../../assets/homepage-header.jpg")',
-    'padding-top':'20px',
-    'padding-bottom': '20px'
   };
   constructor() { }
 
