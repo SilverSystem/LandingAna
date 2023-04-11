@@ -1,7 +1,9 @@
 
 .icon-imgs{
-  height: 150px;
   width: 150px;
+  height: 115px;
+  border-radius: 10%;
+  border: 1px solid #000;
 }
 
 .action-cards{
@@ -58,4 +60,13 @@
 }
 .init-slide i{
   font-size: 3rem!important;
+}
+
+ion-label{
+  font-size: 22px!important;
+}
+.text_fix{
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 20px;
 }
