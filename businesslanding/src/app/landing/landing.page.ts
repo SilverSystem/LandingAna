@@ -9,7 +9,7 @@ export class LandingPage implements OnInit {
   img = {
     'background-color': '#E6D5B8',
     'padding-top':'20px',
-    'padding-bottom': '20px'
+    'padding-bottom': '20px',
   };
   constructor() { }
 
